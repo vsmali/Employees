@@ -1,2 +1,6 @@
-absh123,prince,14,remote,false
-cbad123,queen,5,remote,false
+usercode,name,jobs_completed,preferred _location,inactive
+cbad123,queen,5,remote,TRUE
+abcd123,king,3,hybrid,
+absh123,,,,FALSE
+jdks123,princess,7,hybrid,
+pqrs123,abhi,,remote,FALSE

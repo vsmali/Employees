@@ -1,18 +1,20 @@
-public class EmployeesClass implements Comparable{
+package com.gigvistas.assignment.employees.dto;
+
+public class EmployeeDto implements Comparable{
     private String usercode;
     private String name;
     private int  jobs_completed;
     private String preffered_location;
     private boolean inactive;
 
-    public EmployeesClass() {
+    public EmployeeDto() {
     }
 
-    public EmployeesClass(String usercode,
-                          String name,
-                          int jobs_completed,
-                          String preffered_location,
-                          boolean inactive) {
+    public EmployeeDto(String usercode,
+                       String name,
+                       int jobs_completed,
+                       String preffered_location,
+                       boolean inactive) {
         this.usercode = usercode;
         this.name = name;
         this.jobs_completed = jobs_completed;
@@ -62,18 +64,19 @@ public class EmployeesClass implements Comparable{
 
     @Override
     public String toString() {
-        return usercode +"," + name + "," +jobs_completed + "," + preffered_location + "," + inactive;
+        return "UserCode = "+usercode +", Name = " + name + ", Job_Completed = " +jobs_completed + ", " +
+                "Preferred_Location = " + preffered_location + ", Inactive_User = " + inactive+"\n";
     }
 
     @Override
     public int compareTo(Object o) {
-        EmployeesClass comparingTo =(EmployeesClass) o;
+        EmployeeDto comparingTo =(EmployeeDto) o;
         int comp = name.compareTo(comparingTo.name);
         return comp;
     }
 
     public String addData(){
-        return getUsercode()+","+getName()+","+getJobs_completed()+","+getPreffered_location()+","+isInactive()+"\n";
+        return getUsercode()+","+getName()+","+getJobs_completed()+","+getPreffered_location()+","+isInactive();
     }
 
 }
