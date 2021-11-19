@@ -62,7 +62,13 @@ public class EmployeesClass implements Comparable{
 
     @Override
     public String toString() {
-        return usercode +"," + name + "," +jobs_completed + "," + preffered_location + "," + inactive;
+        return "UserCode = "+usercode +", Name = " + name + ", Job_Completed = " +jobs_completed + ", " +
+                "Preferred_Location = " + preffered_location + ", Inactive_User = " + inactive+"\n";
+    }
+
+    public String displaydata(){
+        return "UserCode = "+usercode +", Name = " + name + ", Job_Completed = " +jobs_completed + ", " +
+                "Preferred_Location = " + preffered_location + ", Inactive_User = " + inactive;
     }
 
     @Override

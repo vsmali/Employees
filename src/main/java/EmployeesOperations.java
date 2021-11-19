@@ -32,6 +32,7 @@ public class EmployeesOperations {
 
 
     public void sortByAlphabeticOrder() {
+
         Collections.sort(users);
         System.out.println("After sorting : ");
         logger.info("Sorting Performance");
@@ -55,14 +56,23 @@ public class EmployeesOperations {
             FileWriter writer = new FileWriter(filename3);
             for (EmployeesClass u2 : users) {
                 if (location.equals(u2.getPreffered_location())) {
-                    System.out.println(u2.toString());
+                    System.out.println(u2.displaydata());
                     writer.append(u2.addData());
                 }
             }
             writer.close();
         }
         catch (Exception e){
+            logger.error("Something went wrong");
             e.printStackTrace();
+        }
+    }
+
+    public void findInactiveUser(){
+        for(EmployeesClass emp1 : users){
+            if(emp1.isInactive() == false){
+                System.out.println(emp1.displaydata());
+            }
         }
     }
 

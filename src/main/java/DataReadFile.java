@@ -1,3 +1,6 @@
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -6,14 +9,16 @@ import java.util.List;
 public class DataReadFile {
     String filename;
     String currentline;
-
+    public static final Logger logger = LogManager.getLogger(MainApplication.class);
     public DataReadFile(String filename) {
         this.filename = filename;
     }
     public List<EmployeesClass> userop(){
         List<EmployeesClass> user = new ArrayList<>();
         try {
+            new Log();
             BufferedReader br2 = new BufferedReader(new FileReader(filename));
+            logger.info("Reading the employee file "+filename);
             while ((currentline = br2.readLine() )!= null){
                 String[] deatailed = currentline.split(",");
                 String usercode = deatailed[0];
@@ -25,6 +30,7 @@ public class DataReadFile {
             }
         }
         catch (Exception e ){
+            logger.error("Something went wrong");
             e.printStackTrace();
         }
         return user;

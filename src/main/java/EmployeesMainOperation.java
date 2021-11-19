@@ -57,7 +57,7 @@ public class EmployeesMainOperation {
 
                 case 5:
                     System.out.println("5.Send email to support@gigvistas.com if there is an inactive member.");
-                    //userOperations.();
+                        userOperations.findInactiveUser();
                     break;
 
                 default:

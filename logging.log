@@ -1,0 +1,19 @@
+2021-11-19 09:46:37 INFO  MainApplication:12 - Employee Application Starts
+2021-11-19 09:46:43 INFO  EmployeesMainOperation:15 - Reading the file from the user
+2021-11-19 09:46:43 INFO  EmployeesMainOperation:16 - User Performance starts
+2021-11-19 09:46:43 INFO  MainApplication:21 - Reading the employee file userdata.csv
+2021-11-19 09:46:45 INFO  EmployeesMainOperation:36 - User performed 1
+2021-11-19 09:46:54 INFO  EmployeesOperations:21 - UserCode entered is cdab123
+2021-11-19 09:47:01 INFO  EmployeesMainOperation:36 - User performed 1
+2021-11-19 09:47:09 INFO  EmployeesOperations:21 - UserCode entered is cbad123
+2021-11-19 09:47:11 INFO  EmployeesMainOperation:36 - User performed 2
+2021-11-19 09:47:11 INFO  EmployeesOperations:44 - Searching the max job Performance
+2021-11-19 09:47:15 INFO  EmployeesMainOperation:36 - User performed 3
+2021-11-19 09:47:15 INFO  EmployeesOperations:38 - Sorting Performance
+2021-11-19 09:47:18 INFO  EmployeesMainOperation:36 - User performed 4
+2021-11-19 09:47:22 INFO  EmployeesOperations:52 - Preferred location entered is remote
+2021-11-19 09:47:27 INFO  EmployeesOperations:55 - Name of the entered is sample.csv
+2021-11-19 09:47:35 INFO  EmployeesMainOperation:36 - User performed 5
+2021-11-19 09:47:38 INFO  EmployeesMainOperation:36 - User performed 6
+2021-11-19 09:47:38 INFO  EmployeesMainOperation:68 - User Performance ends
+2021-11-19 09:47:38 DEBUG MainApplication:15 - Employee Application Ends
