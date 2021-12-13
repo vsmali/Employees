@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class MainApplication {
 
-	public static Logger logger = LogManager.getLogger(MainApplication.class);
+	public static Logger logger = LogManager.getLogger("com.gigvistas.assignment.employees");
 	public static void main(String[] args) throws IOException{
 		try {
 			EmployeesMainOperation employeesMainOperation = new EmployeesMainOperation();

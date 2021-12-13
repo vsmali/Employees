@@ -1,0 +1,82 @@
+2021-11-25 09:40:15 INFO  service:18 - Enter the file : 
+2021-11-25 09:40:23 INFO  service:21 - File Extension is : csv
+2021-11-25 09:40:23 DEBUG service:75 - Read the records from the file
+2021-11-25 09:40:23 ERROR service:115 -  Error while reading the file. Not enough data at 3rd row & 5th column 
+2021-11-25 09:40:23 ERROR service:115 -  Error while reading the file. Not enough data at 4rd row & 2th column
+2021-11-25 09:40:23 ERROR service:115 -  Error while reading the file. Not enough data at 5rd row & 5th column 
+2021-11-25 09:40:23 ERROR service:115 -  Error while reading the file. Not enough data at 6rd row & 3th column
+2021-11-25 09:40:23 INFO  service:28 - 1.Search the user record based on the UserCode.
+2021-11-25 09:40:23 INFO  service:29 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:40:23 INFO  service:30 - 3.Print records in alphabetic order by name.
+2021-11-25 09:40:23 INFO  service:31 - 4.Write the records in a diff file which prefers a remote job.
+2021-11-25 09:40:23 INFO  service:32 - 5.Send email to support@gigvistas.com if there is an inactive member.
+2021-11-25 09:40:23 INFO  service:33 - 6.Exiting from the process.
+2021-11-25 09:40:23 INFO  service:34 - Enter your choice: 
+2021-11-25 09:40:40 DEBUG service:36 - User performed 2
+2021-11-25 09:40:40 INFO  service:46 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:40:40 DEBUG service:47 - Searching the max job Performance
+2021-11-25 09:40:40 INFO  service:28 - 1.Search the user record based on the UserCode.
+2021-11-25 09:40:40 INFO  service:29 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:40:40 INFO  service:30 - 3.Print records in alphabetic order by name.
+2021-11-25 09:40:40 INFO  service:31 - 4.Write the records in a diff file which prefers a remote job.
+2021-11-25 09:40:40 INFO  service:32 - 5.Send email to support@gigvistas.com if there is an inactive member.
+2021-11-25 09:40:40 INFO  service:33 - 6.Exiting from the process.
+2021-11-25 09:40:40 INFO  service:34 - Enter your choice: 
+2021-11-25 09:40:41 DEBUG service:36 - User performed 3
+2021-11-25 09:40:41 INFO  service:51 - 3.Print records in alphabetic order by name.
+2021-11-25 09:40:41 INFO  service:40 - After sorting : 
+2021-11-25 09:40:41 DEBUG service:41 - Sorting Performance
+2021-11-25 09:40:41 INFO  service:28 - 1.Search the user record based on the UserCode.
+2021-11-25 09:40:41 INFO  service:29 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:40:41 INFO  service:30 - 3.Print records in alphabetic order by name.
+2021-11-25 09:40:41 INFO  service:31 - 4.Write the records in a diff file which prefers a remote job.
+2021-11-25 09:40:41 INFO  service:32 - 5.Send email to support@gigvistas.com if there is an inactive member.
+2021-11-25 09:40:41 INFO  service:33 - 6.Exiting from the process.
+2021-11-25 09:40:41 INFO  service:34 - Enter your choice: 
+2021-11-25 09:40:42 DEBUG service:36 - User performed 5
+2021-11-25 09:40:42 INFO  service:62 - 5.Send email to support@gigvistas.com if there is an inactive member.
+2021-11-25 09:40:42 DEBUG service:73 - Searching inactive user Performance
+2021-11-25 09:40:42 INFO  service:28 - 1.Search the user record based on the UserCode.
+2021-11-25 09:40:42 INFO  service:29 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:40:42 INFO  service:30 - 3.Print records in alphabetic order by name.
+2021-11-25 09:40:42 INFO  service:31 - 4.Write the records in a diff file which prefers a remote job.
+2021-11-25 09:40:42 INFO  service:32 - 5.Send email to support@gigvistas.com if there is an inactive member.
+2021-11-25 09:40:42 INFO  service:33 - 6.Exiting from the process.
+2021-11-25 09:40:42 INFO  service:34 - Enter your choice: 
+2021-11-25 09:40:47 DEBUG service:36 - User performed 0
+2021-11-25 09:40:47 INFO  service:66 - Exiting from the process....
+2021-11-25 09:40:47 INFO  service:28 - 1.Search the user record based on the UserCode.
+2021-11-25 09:40:47 INFO  service:29 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:40:47 INFO  service:30 - 3.Print records in alphabetic order by name.
+2021-11-25 09:40:47 INFO  service:31 - 4.Write the records in a diff file which prefers a remote job.
+2021-11-25 09:40:47 INFO  service:32 - 5.Send email to support@gigvistas.com if there is an inactive member.
+2021-11-25 09:40:47 INFO  service:33 - 6.Exiting from the process.
+2021-11-25 09:40:47 INFO  service:34 - Enter your choice: 
+2021-11-25 09:41:02 DEBUG service:36 - User performed 6
+2021-11-25 09:41:02 INFO  service:66 - Exiting from the process....
+2021-11-25 09:41:34 INFO  service:18 - Enter the file : 
+2021-11-25 09:41:42 INFO  service:21 - File Extension is : 
+2021-11-25 09:41:42 DEBUG service:75 - Read the records from the file
+2021-11-25 09:41:42 ERROR service:79 - Error: file not found and entered file is userd (The system cannot find the file specified)
+2021-11-25 09:41:51 INFO  service:18 - Enter the file : 
+2021-11-25 09:41:58 INFO  service:21 - File Extension is : csv
+2021-11-25 09:41:58 DEBUG service:75 - Read the records from the file
+2021-11-25 09:41:58 INFO  service:28 - 1.Search the user record based on the UserCode.
+2021-11-25 09:41:58 INFO  service:29 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:41:58 INFO  service:30 - 3.Print records in alphabetic order by name.
+2021-11-25 09:41:58 INFO  service:31 - 4.Write the records in a diff file which prefers a remote job.
+2021-11-25 09:41:58 INFO  service:32 - 5.Send email to support@gigvistas.com if there is an inactive member.
+2021-11-25 09:41:58 INFO  service:33 - 6.Exiting from the process.
+2021-11-25 09:41:58 INFO  service:34 - Enter your choice: 
+2021-11-25 09:42:02 DEBUG service:36 - User performed 2
+2021-11-25 09:42:02 INFO  service:46 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:42:02 DEBUG service:47 - Searching the max job Performance
+2021-11-25 09:42:02 INFO  service:28 - 1.Search the user record based on the UserCode.
+2021-11-25 09:42:02 INFO  service:29 - 2.Search the record of who has completed maximum jobs.
+2021-11-25 09:42:02 INFO  service:30 - 3.Print records in alphabetic order by name.
+2021-11-25 09:42:02 INFO  service:31 - 4.Write the records in a diff file which prefers a remote job.
+2021-11-25 09:42:02 INFO  service:32 - 5.Send email to support@gigvistas.com if there is an inactive member.
+2021-11-25 09:42:02 INFO  service:33 - 6.Exiting from the process.
+2021-11-25 09:42:02 INFO  service:34 - Enter your choice: 
+2021-11-25 09:42:04 DEBUG service:36 - User performed 7
+2021-11-25 09:42:04 INFO  service:66 - Exiting from the process....
